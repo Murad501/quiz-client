@@ -1,0 +1,490 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "categoryName": "gender",
+      "title": "Gender",
+      "image": "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(99).png"
+    },
+    {
+      "id": "2",
+      "categoryName": "movie",
+      "title": "Movie Trivia",
+      "image": "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20-%202020-07-23T162411_213.jpg"
+    },
+    {
+      "id": "3",
+      "categoryName": "emotion",
+      "title": "Emotions and Feelings",
+      "image": "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(97)(234).jpg"
+    },
+    {
+      "id": "4",
+      "categoryName": "mental health",
+      "title": "Mental Health Awareness",
+      "image": "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(48)(570).jpg"
+    },
+    {
+      "id": "5",
+      "categoryName": "guy",
+      "title": "Guy Fawkes and History",
+      "image": "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(36)(135).jpg"
+    },
+    {
+      "id": "6",
+      "categoryName": "asia",
+      "title": "Asian Culture and Geography",
+      "image": "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(36)(532).jpg"
+    },
+    {
+      "id": "7",
+      "categoryName": "sentence",
+      "title": "Sentence Structure",
+      "image": "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(4)(535).jpg"
+    },
+    {
+      "id": "8",
+      "categoryName": "grammar",
+      "title": "Grammar and Language",
+      "image": "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(65)(543).jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "questionText": "Which year did World War I start?",
+      "answerOptions": [
+        { "answerText": "1914", "isCorrect": true },
+        { "answerText": "1939", "isCorrect": false },
+        { "answerText": "1945", "isCorrect": false },
+        { "answerText": "1918", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "questionText": "Who is the current president of the United States?",
+      "answerOptions": [
+        { "answerText": "Joe Biden", "isCorrect": true },
+        { "answerText": "Donald Trump", "isCorrect": false },
+        { "answerText": "Barack Obama", "isCorrect": false },
+        { "answerText": "George W. Bush", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "questionText": "What is the capital of France?",
+      "answerOptions": [
+        { "answerText": "Paris", "isCorrect": true },
+        { "answerText": "London", "isCorrect": false },
+        { "answerText": "Rome", "isCorrect": false },
+        { "answerText": "Berlin", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 4,
+      "categoryId": 4,
+      "questionText": "What is the highest mountain in the world?",
+      "answerOptions": [
+        { "answerText": "Mount Everest", "isCorrect": true },
+        { "answerText": "K2", "isCorrect": false },
+        { "answerText": "Kangchenjunga", "isCorrect": false },
+        { "answerText": "Lhotse", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 5,
+      "categoryId": 5,
+      "questionText": "What is the capital of Japan?",
+      "answerOptions": [
+        { "answerText": "Tokyo", "isCorrect": true },
+        { "answerText": "Kyoto", "isCorrect": false },
+        { "answerText": "Osaka", "isCorrect": false },
+        { "answerText": "Nagoya", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 6,
+      "categoryId": 6,
+      "questionText": "What is the name of the largest ocean in the world?",
+      "answerOptions": [
+        { "answerText": "Pacific Ocean", "isCorrect": true },
+        { "answerText": "Atlantic Ocean", "isCorrect": false },
+        { "answerText": "Indian Ocean", "isCorrect": false },
+        { "answerText": "Arctic Ocean", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 7,
+      "categoryId": 7,
+      "questionText": "Who is the author of the Harry Potter series?",
+      "answerOptions": [
+        { "answerText": "J.K. Rowling", "isCorrect": true },
+        { "answerText": "Stephen King", "isCorrect": false },
+        { "answerText": "Dan Brown", "isCorrect": false },
+        { "answerText": "Paulo Coelho", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 8,
+      "categoryId": 8,
+      "questionText": "What is the capital of Canada?",
+      "answerOptions": [
+        { "answerText": "Ottawa", "isCorrect": true },
+        { "answerText": "Toronto", "isCorrect": false },
+        { "answerText": "Montreal", "isCorrect": false },
+        { "answerText": "Vancouver", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 9,
+      "categoryId": 6,
+      "questionText": "What is the name of the current CEO of Google?",
+      "answerOptions": [
+        { "answerText": "Sundar Pichai", "isCorrect": true },
+        { "answerText": "Jeff Bezos", "isCorrect": false },
+        { "answerText": "Tim Cook", "isCorrect": false },
+        { "answerText": "Warren Buffett", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 10,
+      "categoryId": 1,
+      "questionText": "Which year did World War I start?",
+      "answerOptions": [
+        { "answerText": "1914", "isCorrect": true },
+        { "answerText": "1939", "isCorrect": false },
+        { "answerText": "1945", "isCorrect": false },
+        { "answerText": "1918", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 11,
+      "categoryId": 2,
+      "questionText": "Who is the current president of the United States?",
+      "answerOptions": [
+        { "answerText": "Joe Biden", "isCorrect": true },
+        { "answerText": "Donald Trump", "isCorrect": false },
+        { "answerText": "Barack Obama", "isCorrect": false },
+        { "answerText": "George W. Bush", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 12,
+      "categoryId": 3,
+      "questionText": "What is the capital of France?",
+      "answerOptions": [
+        { "answerText": "Paris", "isCorrect": true },
+        { "answerText": "London", "isCorrect": false },
+        { "answerText": "Rome", "isCorrect": false },
+        { "answerText": "Berlin", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 13,
+      "categoryId": 4,
+      "questionText": "What is the highest mountain in the world?",
+      "answerOptions": [
+        { "answerText": "Mount Everest", "isCorrect": true },
+        { "answerText": "K2", "isCorrect": false },
+        { "answerText": "Kangchenjunga", "isCorrect": false },
+        { "answerText": "Lhotse", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 14,
+      "categoryId": 5,
+      "questionText": "What is the capital of Japan?",
+      "answerOptions": [
+        { "answerText": "Tokyo", "isCorrect": true },
+        { "answerText": "Kyoto", "isCorrect": false },
+        { "answerText": "Osaka", "isCorrect": false },
+        { "answerText": "Nagoya", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 15,
+      "categoryId": 6,
+      "questionText": "What is the name of the largest ocean in the world?",
+      "answerOptions": [
+        { "answerText": "Pacific Ocean", "isCorrect": true },
+        { "answerText": "Atlantic Ocean", "isCorrect": false },
+        { "answerText": "Indian Ocean", "isCorrect": false },
+        { "answerText": "Arctic Ocean", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 16,
+      "categoryId": 7,
+      "questionText": "Who is the author of the Harry Potter series?",
+      "answerOptions": [
+        { "answerText": "J.K. Rowling", "isCorrect": true },
+        { "answerText": "Stephen King", "isCorrect": false },
+        { "answerText": "Dan Brown", "isCorrect": false },
+        { "answerText": "Paulo Coelho", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 17,
+      "categoryId": 8,
+      "questionText": "What is the capital of Canada?",
+      "answerOptions": [
+        { "answerText": "Ottawa", "isCorrect": true },
+        { "answerText": "Toronto", "isCorrect": false },
+        { "answerText": "Montreal", "isCorrect": false },
+        { "answerText": "Vancouver", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 18,
+      "categoryId": 1,
+      "questionText": "Which year did World War I start?",
+      "answerOptions": [
+        { "answerText": "1914", "isCorrect": true },
+        { "answerText": "1939", "isCorrect": false },
+        { "answerText": "1945", "isCorrect": false },
+        { "answerText": "1918", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 19,
+      "categoryId": 2,
+      "questionText": "Who is the current president of the United States?",
+      "answerOptions": [
+        { "answerText": "Joe Biden", "isCorrect": true },
+        { "answerText": "Donald Trump", "isCorrect": false },
+        { "answerText": "Barack Obama", "isCorrect": false },
+        { "answerText": "George W. Bush", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 20,
+      "categoryId": 3,
+      "questionText": "What is the capital of France?",
+      "answerOptions": [
+        { "answerText": "Paris", "isCorrect": true },
+        { "answerText": "London", "isCorrect": false },
+        { "answerText": "Rome", "isCorrect": false },
+        { "answerText": "Berlin", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 20,
+      "categoryId": 1,
+      "questionText": "Which year did World War I start?",
+      "answerOptions": [
+        { "answerText": "1914", "isCorrect": true },
+        { "answerText": "1939", "isCorrect": false },
+        { "answerText": "1945", "isCorrect": false },
+        { "answerText": "1918", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 21,
+      "categoryId": 2,
+      "questionText": "Who is the current president of the United States?",
+      "answerOptions": [
+        { "answerText": "Joe Biden", "isCorrect": true },
+        { "answerText": "Donald Trump", "isCorrect": false },
+        { "answerText": "Barack Obama", "isCorrect": false },
+        { "answerText": "George W. Bush", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 22,
+      "categoryId": 3,
+      "questionText": "What is the capital of France?",
+      "answerOptions": [
+        { "answerText": "Paris", "isCorrect": true },
+        { "answerText": "London", "isCorrect": false },
+        { "answerText": "Rome", "isCorrect": false },
+        { "answerText": "Berlin", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 23,
+      "categoryId": 4,
+      "questionText": "What is the highest mountain in the world?",
+      "answerOptions": [
+        { "answerText": "Mount Everest", "isCorrect": true },
+        { "answerText": "K2", "isCorrect": false },
+        { "answerText": "Kangchenjunga", "isCorrect": false },
+        { "answerText": "Lhotse", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 24,
+      "categoryId": 5,
+      "questionText": "What is the capital of Japan?",
+      "answerOptions": [
+        { "answerText": "Tokyo", "isCorrect": true },
+        { "answerText": "Kyoto", "isCorrect": false },
+        { "answerText": "Osaka", "isCorrect": false },
+        { "answerText": "Nagoya", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 25,
+      "categoryId": 6,
+      "questionText": "What is the name of the largest ocean in the world?",
+      "answerOptions": [
+        { "answerText": "Pacific Ocean", "isCorrect": true },
+        { "answerText": "Atlantic Ocean", "isCorrect": false },
+        { "answerText": "Indian Ocean", "isCorrect": false },
+        { "answerText": "Arctic Ocean", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 26,
+      "categoryId": 7,
+      "questionText": "Who is the author of the Harry Potter series?",
+      "answerOptions": [
+        { "answerText": "J.K. Rowling", "isCorrect": true },
+        { "answerText": "Stephen King", "isCorrect": false },
+        { "answerText": "Dan Brown", "isCorrect": false },
+        { "answerText": "Paulo Coelho", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 27,
+      "categoryId": 8,
+      "questionText": "What is the capital of Canada?",
+      "answerOptions": [
+        { "answerText": "Ottawa", "isCorrect": true },
+        { "answerText": "Toronto", "isCorrect": false },
+        { "answerText": "Montreal", "isCorrect": false },
+        { "answerText": "Vancouver", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 28,
+      "categoryId": 6,
+      "questionText": "What is the name of the current CEO of Google?",
+      "answerOptions": [
+        { "answerText": "Sundar Pichai", "isCorrect": true },
+        { "answerText": "Jeff Bezos", "isCorrect": false },
+        { "answerText": "Tim Cook", "isCorrect": false },
+        { "answerText": "Warren Buffett", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 29,
+      "categoryId": 1,
+      "questionText": "Which year did World War I start?",
+      "answerOptions": [
+        { "answerText": "1914", "isCorrect": true },
+        { "answerText": "1939", "isCorrect": false },
+        { "answerText": "1945", "isCorrect": false },
+        { "answerText": "1918", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 30,
+      "categoryId": 2,
+      "questionText": "Who is the current president of the United States?",
+      "answerOptions": [
+        { "answerText": "Joe Biden", "isCorrect": true },
+        { "answerText": "Donald Trump", "isCorrect": false },
+        { "answerText": "Barack Obama", "isCorrect": false },
+        { "answerText": "George W. Bush", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 31,
+      "categoryId": 3,
+      "questionText": "What is the capital of France?",
+      "answerOptions": [
+        { "answerText": "Paris", "isCorrect": true },
+        { "answerText": "London", "isCorrect": false },
+        { "answerText": "Rome", "isCorrect": false },
+        { "answerText": "Berlin", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 32,
+      "categoryId": 4,
+      "questionText": "What is the highest mountain in the world?",
+      "answerOptions": [
+        { "answerText": "Mount Everest", "isCorrect": true },
+        { "answerText": "K2", "isCorrect": false },
+        { "answerText": "Kangchenjunga", "isCorrect": false },
+        { "answerText": "Lhotse", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 33,
+      "categoryId": 5,
+      "questionText": "What is the capital of Japan?",
+      "answerOptions": [
+        { "answerText": "Tokyo", "isCorrect": true },
+        { "answerText": "Kyoto", "isCorrect": false },
+        { "answerText": "Osaka", "isCorrect": false },
+        { "answerText": "Nagoya", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 34,
+      "categoryId": 6,
+      "questionText": "What is the name of the largest ocean in the world?",
+      "answerOptions": [
+        { "answerText": "Pacific Ocean", "isCorrect": true },
+        { "answerText": "Atlantic Ocean", "isCorrect": false },
+        { "answerText": "Indian Ocean", "isCorrect": false },
+        { "answerText": "Arctic Ocean", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 35,
+      "categoryId": 7,
+      "questionText": "Who is the author of the Harry Potter series?",
+      "answerOptions": [
+        { "answerText": "J.K. Rowling", "isCorrect": true },
+        { "answerText": "Stephen King", "isCorrect": false },
+        { "answerText": "Dan Brown", "isCorrect": false },
+        { "answerText": "Paulo Coelho", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 36,
+      "categoryId": 8,
+      "questionText": "What is the capital of Canada?",
+      "answerOptions": [
+        { "answerText": "Ottawa", "isCorrect": true },
+        { "answerText": "Toronto", "isCorrect": false },
+        { "answerText": "Montreal", "isCorrect": false },
+        { "answerText": "Vancouver", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 37,
+      "categoryId": 1,
+      "questionText": "Which year did World War I start?",
+      "answerOptions": [
+        { "answerText": "1914", "isCorrect": true },
+        { "answerText": "1939", "isCorrect": false },
+        { "answerText": "1945", "isCorrect": false },
+        { "answerText": "1918", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 38,
+      "categoryId": 2,
+      "questionText": "Who is the current president of the United States?",
+      "answerOptions": [
+        { "answerText": "Joe Biden", "isCorrect": true },
+        { "answerText": "Donald Trump", "isCorrect": false },
+        { "answerText": "Barack Obama", "isCorrect": false },
+        { "answerText": "George W. Bush", "isCorrect": false }
+      ]
+    }
+  ]
+}
