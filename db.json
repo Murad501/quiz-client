@@ -61,7 +61,7 @@
       "id": 1,
       "categoryId": 1,
       "questionText": "Which year did World War I start?",
-      "answerOptions": [
+      "options": [
         { "answerText": "1914", "isCorrect": true },
         { "answerText": "1939", "isCorrect": false },
         { "answerText": "1945", "isCorrect": false },
