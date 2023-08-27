@@ -5,7 +5,7 @@ import { MdWatchLater } from "react-icons/md";
 
 const QuizDetails = ({ questions }) => {
   const router = useRouter();
-  const { id } = router.query;
+  //   const { id } = router.query;
   const [minutes, setMinutes] = useState(1);
   const [seconds, setSeconds] = useState(0);
   const [quizNumber, setQuizNumber] = useState(1);
