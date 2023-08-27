@@ -9,10 +9,8 @@ const QuizDetails = ({ questions }) => {
   const [minutes, setMinutes] = useState(1);
   const [seconds, setSeconds] = useState(0);
   const [quizNumber, setQuizNumber] = useState(1);
-  const filteredQuestions = questions?.slice(0, 10);
-  const currentQuiz = filteredQuestions.find(
-    (quiz, idx) => idx + 1 === quizNumber
-  );
+
+  const currentQuiz = questions.find((quiz, idx) => idx + 1 === quizNumber);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -114,7 +112,7 @@ export const getStaticPaths = async () => {
 // fetch data from db.json
 export const getStaticProps = async (context) => {
   const { params } = context;
-  const res = await fetch(`http://localhost:5000/questions/`);
+  const res = await fetch(`http://localhost:5000/questions/${params?.id}`);
   const data = await res.json();
 
   return {
