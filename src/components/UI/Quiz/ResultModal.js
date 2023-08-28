@@ -10,6 +10,21 @@ const ResultModal = ({ isOpen, onClose, data, handleRetake, handleHome }) => {
     (dt) => dt?.skip === false && dt?.correct === false && dt?.timeOut === false
   )?.length;
 
+  let totalSeconds = 0;
+  let totalMinutes = 0;
+
+  for (const quiz of data) {
+    totalSeconds += quiz?.totalSeconds;
+    totalMinutes += quiz?.totalMinutes;
+  }
+
+  const allSeconds = totalMinutes * 60 + totalSeconds;
+
+  const availableSeconds = data?.length * 60 - allSeconds;
+
+  const minutes = Math.floor(availableSeconds / 60);
+  const seconds = availableSeconds % 60;
+
   return (
     <div className={`fixed inset-0 ${isOpen ? "" : "hidden"}`}>
       <div className="fixed inset-0 backdrop-blur">
@@ -25,6 +40,12 @@ const ResultModal = ({ isOpen, onClose, data, handleRetake, handleHome }) => {
             <AiOutlineCloseCircle className="text-2xl text-red-400 hover:text-red-500" />
           </button>
           {/* Display your data here */}
+          <p className="text-xl flex items-center justify-center gap-5 mb-5">
+            Time:{" "}
+            <span className="text-teal-500">
+              {minutes}m{seconds}s
+            </span>
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <p className="text-xl flex items-center justify-center gap-5">
               Correct:{" "}

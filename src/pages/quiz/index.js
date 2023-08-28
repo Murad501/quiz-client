@@ -58,6 +58,8 @@ const Quizzes = ({ quizzes }) => {
       answered: true,
       correct: isRightAnswer,
       timeOut: false,
+      totalSeconds: seconds,
+      totalMinutes: minutes,
     };
 
     const isAvailable = quizHistory?.find(
@@ -87,6 +89,8 @@ const Quizzes = ({ quizzes }) => {
       answered: false,
       correct: false,
       timeOut: false,
+      totalSeconds: seconds,
+      totalMinutes: minutes,
     };
 
     const isAvailable = quizHistory?.find(
@@ -124,6 +128,7 @@ const Quizzes = ({ quizzes }) => {
       setIsSkip(false),
       setFinished(false),
       setIsAnswered(false);
+    setNavigate(true);
   };
 
   // clear all state when retake quiz
@@ -139,6 +144,7 @@ const Quizzes = ({ quizzes }) => {
       setIsSkip(false),
       setFinished(false),
       setIsAnswered(false);
+    setNavigate(true);
   };
 
   //clear all state when navigate home page
@@ -154,6 +160,7 @@ const Quizzes = ({ quizzes }) => {
       setIsSkip(false),
       setFinished(false),
       setIsAnswered(false);
+    setNavigate(true);
   };
 
   // Countdown timer logic
@@ -168,6 +175,8 @@ const Quizzes = ({ quizzes }) => {
             answered: false,
             correct: false,
             timeOut: true,
+            totalSeconds: seconds,
+            totalMinutes: minutes,
           };
 
           const isAvailable = quizHistory?.find(
