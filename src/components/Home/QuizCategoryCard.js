@@ -5,7 +5,7 @@ const QuizCategoryCard = ({ category }) => {
   return (
     <div className="max-w-xs mx-auto mb-8">
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
-        <Link href={`/quiz/${category?.id}`}>
+        <Link href={`/quiz`}>
           <Image
             width={200}
             height={100}
@@ -16,10 +16,7 @@ const QuizCategoryCard = ({ category }) => {
         </Link>
         <div className="p-4">
           <h2 className="text-xs mb-2 capitalize">{category?.categoryName}</h2>
-          <Link
-            href={`/quiz/${category?.id}`}
-            className="text-gray-800 capitalize"
-          >
+          <Link href={`/quiz`} className="text-gray-800 capitalize">
             {category?.title}
           </Link>
         </div>

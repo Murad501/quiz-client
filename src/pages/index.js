@@ -6,7 +6,37 @@ import QuizCategories from "@/components/UI/Home/QuizCategories";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const HomePage = ({ categories }) => {
+const HomePage = () => {
+  const categories = [
+    {
+      id: 1,
+      categoryName: "gender",
+      title: "Gender",
+      image:
+        "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(99).png",
+    },
+    {
+      id: 2,
+      categoryName: "movie",
+      title: "Movie Trivia",
+      image:
+        "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20-%202020-07-23T162411_213.jpg",
+    },
+    {
+      id: 3,
+      categoryName: "emotion",
+      title: "Emotions and Feelings",
+      image:
+        "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(97)(234).jpg",
+    },
+    {
+      id: 4,
+      categoryName: "mental health",
+      title: "Mental Health Awareness",
+      image:
+        "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(48)(570).jpg",
+    },
+  ];
   return (
     <main
       className={`flex flex-col items-center justify-between max-w-5xl mx-auto py-10 ${inter.className}`}
@@ -49,16 +79,4 @@ export default HomePage;
 
 HomePage.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
-};
-
-// fetch data from db.json
-export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/categories");
-  const data = await res.json();
-
-  return {
-    props: {
-      categories: data,
-    },
-  };
 };
