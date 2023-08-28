@@ -27,25 +27,25 @@ const ResultModal = ({ isOpen, onClose, data, handleRetake, handleHome }) => {
           {/* Display your data here */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <p className="text-xl flex items-center justify-center gap-5">
-              Total Correct:{" "}
+              Correct:{" "}
               <span className="text-green-500">
                 {totalCorrect}/{totalData}
               </span>
             </p>
             <p className="text-xl flex items-center justify-center gap-5">
-              Total Skip:{" "}
+              Skip:{" "}
               <span className="text-sky-500">
                 {totalSkip}/{totalData}
               </span>
             </p>
             <p className="text-xl flex items-center justify-center gap-5">
-              Total Wrong:{" "}
+              Wrong:{" "}
               <span className="text-red-500">
                 {totalWrong}/{totalData}
               </span>
             </p>
             <p className="text-xl flex items-center justify-center gap-5">
-              Total Time Out:{" "}
+              Time Out:{" "}
               <span className="text-yellow-500">
                 {totalTimeOut}/{totalData}
               </span>
