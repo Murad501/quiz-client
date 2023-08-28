@@ -97,7 +97,6 @@ const Quizzes = ({ quizzes }) => {
     }
 
     if (quizzes?.length === currentQuizIdx) {
-      console.log("Quiz finished");
       setFinished(true);
       return;
     }
@@ -194,14 +193,14 @@ const Quizzes = ({ quizzes }) => {
   return (
     <section>
       <div className="max-w-5xl mx-auto">
-        <div className="my-10 w-full">
+        <div className="my-5 md:my-10 w-full">
           <button className="flex items-center justify-start gap-2 font-semibold text-[#4d4d4d] border-b border-gray-500 py-2 pr-5">
             <BiSolidCategoryAlt /> All Quizzes
           </button>
         </div>
 
-        <div className="p-4">
-          <h1 className="text-3xl font-semibold my-5">
+        <div className="md:p-4">
+          <h1 className="text-xl md:text-3xl font-semibold my-2 md:my-5">
             {quizNumber}. {currentQuiz?.question}
           </h1>
           {/* timer */}
@@ -214,7 +213,7 @@ const Quizzes = ({ quizzes }) => {
         </div>
         {/* quiz options */}
         <div>
-          <ul className="mt-5 grid grid-cols-1 md:grid-cols-2 gap-5 list-none">
+          <ul className="mt-5 grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5 list-none">
             {currentQuiz.options?.map((option, index) => (
               <li
                 onClick={() =>
@@ -240,7 +239,7 @@ const Quizzes = ({ quizzes }) => {
                     !isAvailable && "cursor-pointer"
                   }`}
                 >
-                  <span className="font-semibold text-xl text-gray-700 mb-2">
+                  <span className="font-semibold text-lg md:text-xl text-gray-700 mb-2">
                     {index + 1}. {option}
                   </span>
                   <input

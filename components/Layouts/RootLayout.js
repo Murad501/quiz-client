@@ -3,7 +3,7 @@ import Header from "@/components/Shared/Header";
 
 const RootLayout = ({ children }) => {
   return (
-    <div className="bg-white text-black ">
+    <div className="bg-white text-black px-5">
       <div>
         <Header />
         {children}
